@@ -1,1 +1,241 @@
-/* Add screen styles below */
+body, h1, p {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  color: white;
+}
+
+nav {
+  display: flex;
+  position: sticky;
+  justify-content: space-between;
+  align-items: center;
+  top: 0;
+  background: #022B3A;
+  height: 90px;
+  padding: 0 20px;
+}
+
+.logoImage {
+  width: 80px;
+  height: 80px;
+}
+
+.nav-buttons {
+  display: flex;
+  flex-direction: row;
+  margin-right: 20px;
+  color: white;
+}
+
+.nav-buttons h1 {
+  margin: 20px;
+}
+
+.poster {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+.poster-img {
+  width: auto;
+  height: auto; 
+}
+
+.page-container {
+  background-color: #1F7A8C;
+  padding: 20px;
+}
+
+.page-container h1{
+  text-decoration: underline;
+  text-align: center;
+  font-weight: bold;
+  color: white;
+}
+
+.booking-container {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px;
+  gap: 20px;
+  text-align: left;
+}
+
+.calendar {
+  flex-basis: 40%;
+  background-color: white;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.calendar-img {
+  width: 100%;
+  height: auto;
+}
+
+.classes {
+  background-color: white;
+  color: black;
+  padding: 20px;
+  border-radius: 10px; 
+  flex-basis: 40%;
+}
+
+.classes h2 {
+  margin: 0; 
+  padding: 0; 
+  list-style: none;
+  text-decoration: underline;
+  font-size: 3em;
+  font-weight: bold;
+}
+
+.classes ul {
+  margin-left: 20px;
+  color: #535353;
+  font-size: 1.8em;
+}
+
+.classes li {
+  margin: 15px auto;
+  padding: 8px 0; 
+}
+
+
+.confirm-booking {
+  background-color: #FFFA81;
+}
+
+
+.booking-button-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.booking-button {
+  background-color: #BFDBF7;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: center; 
+  align-items: center;
+  gap: 30px; 
+  padding: 10px;
+  margin-top: 20px; 
+  border-radius: 30px; 
+}
+
+.booking-button select,
+.booking-button button {
+  padding: 10px;
+  margin: 0; 
+}
+
+.confirm-booking {
+  cursor: pointer; 
+  border: none; 
+  background-color: #FFFA81;
+  color: #022B3A;
+  font-weight: bold; 
+  padding: 15px 30px; 
+  border-radius: 20px; 
+}
+
+.booking-button select {
+  cursor: pointer;
+  border: 1px solid #ccc; 
+  border-radius: 20px;
+  background-color: white; 
+  color: #022B3A;
+}
+
+
+
+
+
+
+.became-tutor-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%; 
+  margin-top: 20px; 
+}
+
+.became-tutor {
+  background-color: #ffffff;
+  color: black;
+  text-align: left;
+  padding: 20px;
+  border-radius: 10px; 
+  width: 80%; 
+  max-width: 400px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.became-tutor h2 {
+  color: #022B3A; 
+  font-size: 1.5em; 
+  margin-bottom: 15px; 
+}
+
+.became-tutor label {
+  display: block; 
+  margin-bottom: 5px; 
+}
+
+.became-tutor input[type="text"],
+.became-tutor input[type="email"] {
+  width: calc(100% - 20px); 
+  padding: 10px; 
+  margin-bottom: 15px; 
+  border: 1px solid #ccc;
+  border-radius: 5px; 
+}
+
+.became-tutor input[type="submit"] {
+  cursor: pointer;
+  border: none;
+  background-color: #004834; 
+  color: white;
+  text-transform: uppercase; 
+  padding: 10px 20px;
+  border-radius: 20px;
+  font-weight: bold;
+  margin-top: 10px; 
+}
+
+.became-tutor input[type="submit"] {
+  margin: auto;
+}
+
+.became-tutor input[type="submit"]:hover {
+  background-color: #003523; 
+}
+
+
+.became-tutor form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.send-request {
+  cursor: pointer;
+  border: none;
+  background-color: #FFFA81; 
+  color: #022B3A;
+  font-weight: bold;
+  padding: 15px 30px; 
+  border-radius: 20px; 
+  margin-top: 10px; 
+  width: 100%; 
+  box-sizing: border-box; 
+  text-transform: uppercase;
+}
