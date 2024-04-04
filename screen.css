@@ -260,3 +260,125 @@ nav {
   font-size: large;
 }
 
+
+.contact-us {
+  background-color: #E1E5F2;
+  padding: 40px;
+  text-align: center;
+  width: auto;
+  border-radius: 15px;
+  margin-top: 40px;
+}
+
+.contact-us h2 {
+  color: #333; 
+  margin-bottom: 20px;
+}
+
+.contact-us p {
+  color: #666;
+  margin-bottom: 30px;
+}
+
+.contact-us form {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.contact-us input[type="text"],
+.contact-us input[type="email"],
+.contact-us textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.contact-us textarea {
+  height: 150px; 
+}
+
+.contact-us button.contact-submit {
+  padding: 10px 20px;
+  background-color: #FFFA81;
+  color: black;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.contact-us button.contact-submit:hover {
+  background-color: #5cb85c;
+}
+
+.manage-sessions {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  padding: 20px;
+  background-color: #e6e6e6; 
+  border-radius: 10px;
+}
+
+.session-info, .tutor-info {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.session-info h2, .tutor-info h3 {
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.rating {
+  display: flex;
+  align-items: center;
+}
+
+.rating .stars {
+  color: #ffd700; 
+  margin: 0 10px;
+}
+
+.rating span {
+  font-size: 0.9em;
+}
+
+.session-actions {
+  grid-column: 1 / -1; 
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.action-button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.action-button.cancel {
+  background-color: #d9534f; 
+  color: white;
+}
+
+.action-button.change {
+  background-color: #f0ad4e; 
+  color: white;
+}
+
+.action-button.launch {
+  background-color: #5cb85c;
+  color: white;
+}
+
+.action-button:hover {
+  opacity: 0.9;
+}
