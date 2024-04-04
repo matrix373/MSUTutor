@@ -155,10 +155,6 @@ nav {
 }
 
 
-
-
-
-
 .became-tutor-container {
   display: flex;
   flex-direction: column;
@@ -239,3 +235,28 @@ nav {
   box-sizing: border-box; 
   text-transform: uppercase;
 }
+
+.about-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin: 20px auto; 
+  padding: 20px;
+  background-color: white;
+  border-radius: 15px;
+  width: 60%;
+  
+}
+
+.about-container h1, p {
+  color: black;
+  margin: auto;
+  padding: 10px;
+}
+
+.about-container p {
+  font-family: sans-serif;
+  font-size: large;
+}
+
